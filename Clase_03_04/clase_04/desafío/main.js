@@ -1,14 +1,22 @@
-let dato = Number(prompt('Ingrese el monto dispuesto a pagar'))
+let cuota = Number(prompt('Ingrese el precio del producto.'))
 
-function impuesto(dato) {
-    let impuesto = (dato * 21) / 100;
-    console.log(`El precio final es de $${dato + impuesto} (iva incluido).`)
+function cuotaSeis(cuota) {
+    let division = parseInt(cuota / 6)
+    alert(`6 cuotas (sin interes): El precio es de $${division}.`)
 }
 
-function descuento(dato) {
-    let descuento = (dato * 10) / 100;
-    console.log(`El precio final es de $${dato - descuento} (descuento del 10% incluido).`)
+function cuotaOcho(cuota) {
+    let division = parseInt(cuota / 8)
+    alert(`6 cuotas (sin interes): El precio es de $${division}.`)
 }
 
-impuesto(dato)
-descuento(dato)
+function cuotaDoce(cuota) {
+    let division = parseInt(cuota / 12)
+    alert(`6 cuotas (sin interes): El precio es de $${division}.`)
+}
+
+cuotaSeis(cuota)
+
+cuotaOcho(cuota)
+
+cuotaDoce(cuota)
