@@ -150,7 +150,7 @@ a {
 }
 
 .producto:hover {
-    box-shadow: 10px 10px 8px 10px #888888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 300ms;
 }
 
@@ -299,7 +299,7 @@ a {
 
 .footer p a:hover {
     transition: all 300ms;
-    color: #90b5ff;
+    color: #bcd2ff;
 }
 
 .footer h3 {
@@ -321,7 +321,7 @@ a {
 
 .footer__listado .listado li a {
     font-size: 20px;
-    color: rgb(155, 153, 153);
+    color: #4c4c4c;
     font-family: 'Monserrat', sans-serif;
 }
 
