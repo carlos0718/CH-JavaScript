@@ -1,4 +1,4 @@
-const zapatilla = {
+/* const zapatilla = {
     marca: prompt('Ingrese la marca de la zapatilla.'),
     color: prompt('Ingrese el color que busca.'),
     precio: prompt('Ingrese el precio de la zapatilla.'),
@@ -14,4 +14,4 @@ const zapatilla = {
     }
 };
 
-alert(`${zapatilla.mostrarZapatilla()}el precio final es de $${zapatilla.calcIva()} (iva incluido).`);
+alert(`${zapatilla.mostrarZapatilla()}el precio final es de $${zapatilla.calcIva()} (iva incluido).`); */
