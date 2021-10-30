@@ -97,15 +97,3 @@ productos.forEach((p) => {
     document.body.append(seccionProducto);
 
 });
-
-productos.forEach((p) => {
-    const btnCompra = document.getElementById(`btnCompra${p.id}`);
-    const carrito = document.getElementById('carrito');
-
-    btnCompra.addEventListener('click', () => {
-        carrito.style.color = 'blue';
-        alert('Producto añadido!');
-        btnCompra.style.backgroundColor = 'gray';
-        console.log(carrito)
-    });
-})
